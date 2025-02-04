@@ -10,6 +10,8 @@
     z-index: 1000;    /* Ensures it stays above other content */
     /* background-color: #254774; */
     height: 12.5%;
+    margin-left: 0px; /* Reduce margin */
+    padding-left: 10px; /* Adjust spacing */
 
   }
   
@@ -18,8 +20,8 @@
     height: 75px;  /* Adjust as needed */
     width: auto;  /* Keeps aspect ratio */
     object-fit: contain; /* Ensures it scales properly */
-    margin-right: 20px;
-    margin-left: 15px;
+    /* margin-right: 20px; */
+    /* margin-left: 15px; */
     margin-top: 5px;
   }
   
@@ -32,9 +34,11 @@
   
   .navbar ul {
     display: flex;
-    gap: 1.5rem;
+    gap: 1.25rem;
     list-style: none;
     font-weight: 1500;
+    margin-left: 0px; /* Reduce margin */
+    padding-left: 10px; /* Adjust spacing */
   }
   
   .navbar ul li {
@@ -64,11 +68,11 @@
     margin-left: auto; /* Pushes profile icon to the right */
     display: flex;
     align-items: center;
-    margin-right: 15px;
+    margin-right: 40px;
   }
   
   .profile-icon {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #254774;
     cursor: pointer;
     transition: color 0.3s ease-in-out;

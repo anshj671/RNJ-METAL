@@ -7,7 +7,7 @@ const Home = () => {
         <p className='Title-tag2'>with Precision</p>
         <p className='Title-tag3'>Lubrication & Solutions</p>
 
-        <h1 className='Title'>RS  Marketing</h1>
+        <h1 className='Title'>RNJ METAL</h1>
         
     </div>
   )
