@@ -15,7 +15,7 @@
   
 /* Logo Styling */
 .logo img {
-    height: 50px;  /* Adjust as needed */
+    height: 75px;  /* Adjust as needed */
     width: auto;  /* Keeps aspect ratio */
     object-fit: contain; /* Ensures it scales properly */
     margin-right: 20px;
@@ -37,14 +37,14 @@
     font-weight: 1500;
   }
   
-  .navbar ulli {
+  .navbar ul li {
     display: flex;
     align-items: center;
   }
   
   .navbar ul li a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 23px;
     transition: color 0.3s ease-in-out;
     color: whitesmoke;
     font-weight: 750;

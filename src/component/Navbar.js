@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from './img/Title-Logo.jpg' // Replace with your actual logo file
-import { FaUserCircle } from "react-icons/fa"; // Using React Icons for profile
+import logo from './img/Title-Logo.png' 
+import { FaUserCircle } from "react-icons/fa";  
 
 const Navbar = () => {
   return (
@@ -16,7 +16,7 @@ const Navbar = () => {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/product">Product</Link></li>
         <li><Link to="/client">Client</Link></li>
-        <li><Link to="/contacts">Contacts</Link></li>
+        <li><Link to="/contacts">Contact</Link></li>
         <li><Link to="/about">About</Link></li>
       </ul>
 
