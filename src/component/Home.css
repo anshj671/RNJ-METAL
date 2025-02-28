@@ -39,7 +39,7 @@
     left: 62.7%;
 }
 
-/* body {
+body {
     background-image: url("./img/Bg.jpg");
     background-size: cover;   
     background-position: center; 
@@ -48,7 +48,8 @@
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-  } */
+    
+  }
   
   /* Prevent content from hiding under the navbar */
   .content {
