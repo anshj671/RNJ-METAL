@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-import Content from "./Content"
+
 const Home = () => {
   return (
     <div className='home-container'>
@@ -9,7 +9,8 @@ const Home = () => {
         <p className='Title-tag3'>Lubrication & Solutions</p>
 
         <h1 className='Title'>RNJ METAL</h1>
-        <Content />
+        <h2> ANSH</h2>
+        
     </div>
   )
 }
