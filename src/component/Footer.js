@@ -1,9 +1,11 @@
 import React from 'react'
+import './Footer.css'
 
 const Footer = () => {
   return (
     <div>
-      Footer says helo!!
+      Footer sayslo!!
+      hello neel
     </div>
   )
 }
