@@ -13,10 +13,6 @@ const Navbar = () => {
         <img className="Title-Img" src={logo} alt="Logo" />
       </div>
 
-      <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
-        {isOpen ? <FaTimes /> : <FaBars />}
-      </div>
-
       <ul className={isOpen ? "nav-links active" : "nav-links"}>
         <li><Link to="/" onClick={() => setIsOpen(false)}>Home</Link></li>
         <li><Link to="/product" onClick={() => setIsOpen(false)}>Product</Link></li>
@@ -25,8 +21,13 @@ const Navbar = () => {
         <li><Link to="/about" onClick={() => setIsOpen(false)}>About</Link></li>
       </ul>
 
-      <div className="profile">
-        <FaUserCircle className="profile-icon" />
+      <div className="nav-right">
+        <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+          {isOpen ? <FaTimes /> : <FaBars />}
+        </div>
+        <div className="profile">
+          <FaUserCircle className="profile-icon" />
+        </div>
       </div>
     </nav>
   );
