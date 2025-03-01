@@ -4,6 +4,7 @@ const Footer = () => {
   return (
     <div>
       Footer says hello!!
+      hello neel
     </div>
   )
 }

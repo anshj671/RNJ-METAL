@@ -1,0 +1,32 @@
+.section_padding {
+    padding: 4rem 4rem;
+}
+
+.footer {
+    background-color: #2d2d32;
+}
+
+.sb_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sb_footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.sb_footer-links_div {
+    width: 150px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+}
