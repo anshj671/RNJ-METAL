@@ -1,3 +1,58 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.hero-section {
+    background-image: url("./img/Bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.content {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.Title {
+    font-size: 100px;
+    color: #254774;
+    font-weight: bolder;
+    font-family: "Klein Trial", sans-serif;
+    text-align: center;
+}
+
+.Title-tag1, .Title-tag2, .Title-tag3 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    color: #6a86ab;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.Title-tag2 {
+    font-size: 30px;
+    color: #889ab1;
+}
+
 .Title{
     position: absolute;
     bottom: 16.5%;
@@ -53,4 +108,3 @@ body {
   .content {
     padding-top: 80px;
   }
-
