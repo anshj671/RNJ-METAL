@@ -1,83 +1,97 @@
-/* Navbar.css */
 .navbar {
-    position: fixed;  /* Fixes the navbar at the top */
-    top: 0;           /* Aligns it at the top */
-    left: 0;
-    width: 100%;      /* Ensures it spans the full width */
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    z-index: 1000;    /* Ensures it stays above other content */
-    /* background-color: #254774; */
-    height: 12.5%;
-    margin-left: 0px; /* Reduce margin */
-    padding-left: 10px; /* Adjust spacing */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 1000;
+  height: 80px;
+  margin-left: 0px;
+  padding-left: 10px;
+}
 
-  }
-  
-/* Logo Styling */
 .logo img {
-    height: 75px;  /* Adjust as needed */
-    width: auto;  /* Keeps aspect ratio */
-    object-fit: contain; /* Ensures it scales properly */
-    /* margin-right: 20px; */
-    /* margin-left: 15px; */
-    margin-top: 5px;
+  height: 75px;
+  width: auto;
+  object-fit: contain;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .logo img {
+      height: 50px;
   }
-  
-  /* Optional: Make logo responsive */
-  @media (max-width: 768px) {
-    .logo img {
-      height: 40px; /* Smaller for mobile */
-    }
-  }
-  
-  .navbar ul {
-    display: flex;
-    gap: 1.25rem;
-    list-style: none;
-    font-weight: 1500;
-    margin-left: 0px; /* Reduce margin */
-    padding-left: 10px; /* Adjust spacing */
-  }
-  
-  .navbar ul li {
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar ul li a {
-    text-decoration: none;
-    font-size: 23px;
-    transition: color 0.3s ease-in-out;
-    color: whitesmoke;
-    font-weight: 750;
-  }
-  
-  .navbar ul li a:hover {
-    color: #93c5fd; /* Light blue */
-  }
-  
-  /* Add padding to the body so content does not go under navbar */
-  body {
-    padding-top: 70px; /* Adjust this to match navbar height */
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  font-weight: 1500;
+  margin-left: 0px;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-size: 23px;
+  transition: color 0.3s ease-in-out;
+  color: whitesmoke;
+  text-shadow: black 2px 2px;
+  font-weight: 750;
+}
+
+.nav-links li a:hover {
+  color: #93c5fd;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.profile-icon {
+  font-size: 2.5rem;
+  color: #254774;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.profile-icon:hover {
+  color: #93c5fd;
+}
+
+.hamburger {
+  display: none;
+  font-size: 30px;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .hamburger {
+      display: block;
   }
 
-  /* Profile Icon on the Right */
-.profile {
-    margin-left: auto; /* Pushes profile icon to the right */
-    display: flex;
-    align-items: center;
-    margin-right: 40px;
+  .nav-links {
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      background: #254774;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px 0;
+      align-items: center;
+      display: none;
   }
-  
-  .profile-icon {
-    font-size: 2.5rem;
-    color: #254774;
-    cursor: pointer;
-    transition: color 0.3s ease-in-out;
+
+  .nav-links.active {
+      display: flex;
   }
-  
-  .profile-icon:hover {
-    color: #93c5fd;
-  }
+}
