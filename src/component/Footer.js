@@ -4,8 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div>
-      Footer sayslo!!
-      hello neel
+      Footer sayslo!! ansh
     </div>
   )
 }
