@@ -17,7 +17,7 @@ const Navbar = () => {
         <li><Link to="/" onClick={() => setIsOpen(false)}>Home</Link></li>
         <li><Link to="/product" onClick={() => setIsOpen(false)}>Product</Link></li>
         <li><Link to="/client" onClick={() => setIsOpen(false)}>Client</Link></li>
-        <li><Link to="/contacts" onClick={() => setIsOpen(false)}>Contact</Link></li>
+        <li><Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
         <li><Link to="/about" onClick={() => setIsOpen(false)}>About</Link></li>
       </ul>
 

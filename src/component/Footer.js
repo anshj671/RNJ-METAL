@@ -37,7 +37,9 @@ const Footer = () => {
 
     <div>
       <h3 className="footer-title">Contact</h3>
-      <p className="footer-links">Contact us</p>
+      <ul className="footer-links">
+        <li>Contact us</li>
+      </ul>
     </div>
   </div>
 

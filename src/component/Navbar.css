@@ -3,6 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  background-color: #254774;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -48,7 +49,6 @@
   font-size: 23px;
   transition: color 0.3s ease-in-out;
   color: whitesmoke;
-  text-shadow: black 2px 2px;
   font-weight: 750;
 }
 
@@ -65,7 +65,7 @@
 
 .profile-icon {
   font-size: 2.5rem;
-  color: #254774;
+  color: #f2f5f9;
   cursor: pointer;
   transition: color 0.3s ease-in-out;
 }
