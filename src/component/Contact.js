@@ -33,16 +33,14 @@ const Contact = () => {
                 <p>Feel free to reach out with any inquiries.</p>
 
                 <div className="contact-content">
-                    {/* Left Side: Company Info */}
                     <div className="contact-info">
                         <h2>Our Office</h2>
-                        <p><strong>Company Name:</strong> ABC Corp</p>
+                        <p><strong>Company Name:</strong> RNJ Metal</p>
                         <p><strong>Address:</strong> 123 Business St, City, Country</p>
                         <p><strong>Email:</strong> support@abc.com</p>
                         <p><strong>Phone:</strong> +1 234 567 890</p>
                     </div>
 
-                    {/* Right Side: Contact Form */}
                     <div className="contact-form">
                         <h2>Leave us a message:</h2>
                         <form onSubmit={handleSubmit}>
