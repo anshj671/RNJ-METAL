@@ -14,3 +14,12 @@
 .content {
   padding-top: 80px; /* Adjust based on navbar height */
 }
+
+
+html, body {
+  overflow-x: hidden; 
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
